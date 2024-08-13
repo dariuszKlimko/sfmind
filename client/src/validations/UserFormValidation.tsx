@@ -31,7 +31,7 @@ export function validateAge(birthDate: string): boolean {
   const pickedDay = new Date(birthDate).getDate();
   const pickedMonth = new Date(birthDate).getMonth();
   const pickedYear = new Date(birthDate).getFullYear();
-  const ageToCompare = 1;
+  const ageToCompare = 60;
 
   if (todayYear - ageToCompare > pickedYear) return true;
   if (todayYear - ageToCompare === pickedYear && todayMonth > pickedMonth) return true;
