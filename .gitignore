@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+
+.env
+!.env.dist
+!.env.test
+
+!.gitkeep
