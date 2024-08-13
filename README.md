@@ -14,7 +14,7 @@ npm run build
 npm start
 ```
 
-## Run server
+## Run client
 1) Clone repository to your local machine.
 2) Create .env files according to .env.example.
 3) Go to directory "/client" and run commands:
